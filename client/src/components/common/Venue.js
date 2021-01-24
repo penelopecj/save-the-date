@@ -1,12 +1,17 @@
 import React from 'react'
 
+import westbury from '../../images/westbury.jpg'
+import westburyManor from '../../images/westbury2.jpg'
+import timesSquare from '../../images/nyc2.jpg'
+import brooklynBridge from '../../images/nyc3.jpg'
+
 function Venue() {
 
   return (
     <main>
       <section className="photo-banner">
-        <img className="reg-img" src="images/westbury.jpg" alt="mansion with fountain" />
-        <img className="reg-img" src="images/westbury2.jpg" alt="outdoor wedding ceremony arch" />
+        <img className="reg-img" src={westbury} alt="mansion with fountain" />
+        <img className="reg-img" src={westburyManor} alt="outdoor wedding ceremony arch" />
       </section>
       <section className="travel-banner">
         <h3>How to get to...</h3>
@@ -34,8 +39,8 @@ function Venue() {
         <p>If you will be flying internationally, we recommend booking a direct flight if possible and planning for plenty of time to pass through busy US customs (during summer vacation time).</p>
       </section>
       <section className="photo-banner">
-        <img className="reg-img" src="images/nyc3.jpg" alt="Times Square Manhattan" />
-        <img className="reg-img" src="images/nyc2.jpg" alt="Brooklyn Bridge at night" />
+        <img className="reg-img" src={timesSquare} alt="Times Square Manhattan" />
+        <img className="reg-img" src={brooklynBridge} alt="Brooklyn Bridge at night" />
       </section>
       <section className="travel-banner">
         <h3>Where to stay in...</h3>

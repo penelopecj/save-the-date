@@ -1,13 +1,16 @@
 import React from 'react'
 
+import collins from '../../images/collins.jpg'
+import jungreis from '../../images/jungreis.jpg'
+
 function Registry() {
 
   return (
     <main>
       <h3>The best present is your presence...</h3>
       <section className="photo-banner">
-        <img className="reg-img" src="images/collins.jpg" alt="four people at dinner" />
-        <img className="reg-img" src="images/jungreis.jpg" alt="group family photo with buddha" />
+        <img className="reg-img" src={collins} alt="four people at dinner" />
+        <img className="reg-img" src={jungreis} alt="group family photo with buddha" />
       </section>
       <section className="title-banner">
         <h3>But if you insist...</h3>
