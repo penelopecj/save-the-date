@@ -1,6 +1,14 @@
 * {
   box-sizing: border-box;
 }
+.black {
+  color: rgb(59, 59, 59);
+}
+
+.zac {
+  color: rgb(95, 104, 201);
+  text-decoration: none;
+}
 
 .bold {
     font-weight: bolder;
@@ -106,6 +114,7 @@ main {
 
 h1 {
     font-size: 3rem;
+    color: rgb(199, 0, 149);
 }
 
 .invited {
@@ -185,9 +194,9 @@ h2, h1 {
 }
 
 .countdown-banner {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
-    color: rgb(202, 0, 125);
+    color: grey;
     border-top: 3px dotted silver;
 }
 

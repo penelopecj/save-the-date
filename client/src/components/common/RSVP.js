@@ -8,9 +8,9 @@ function RSVP() {
     <main>
       <h3>We&apos;d love to see you there...</h3>
       <section className="photo-banner">
+        {/* <img className="index-img" src="" alt="" />
         <img className="index-img" src="" alt="" />
-        <img className="index-img" src="" alt="" />
-        <img className="index-img" src="" alt="" />
+        <img className="index-img" src="" alt="" /> */}
       </section>
       <section className="title-banner">
         <h3>Let us know if you will be joining us!</h3>
