@@ -15,7 +15,7 @@ function Registry() {
       <section className="title-banner">
         <h3>But if you insist...</h3>
         <h1>Wedding Registry</h1>
-        <h2></h2>
+        <h2>Details coming soon.</h2>
         <h4></h4>
       </section>
     </main>

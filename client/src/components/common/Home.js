@@ -8,7 +8,9 @@ function Home() {
 
   return (
     <main>
-      <h3>You&apos;re invited...</h3>
+      <section className="title-banner">
+        <h3 className="invited">You&apos;re invited...</h3>
+      </section>
       <section className="photo-banner">
         <img className="index-img" src={engaged} alt="man and woman with engagement ring" />
         <img className="index-img" src={shifen} alt="couple kissing on train tracks" />
@@ -16,7 +18,7 @@ function Home() {
       </section>
       <section className="title-banner">
         <h3>to the wedding of</h3>
-        <h1>Penelope Jungreis & Zachary Collins</h1>
+        <h1>Penelope Jungreis &amp; Zachary Collins</h1>
         <h2 className="date">Sunday 10<span className="superscript">th</span> July 2022</h2>
         <h4>Westbury Manor in New York</h4>
       </section>

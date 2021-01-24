@@ -14,10 +14,11 @@ function Venue() {
         <img className="reg-img" src={westburyManor} alt="outdoor wedding ceremony arch" />
       </section>
       <section className="travel-banner">
-        <h3>How to get to...</h3>
         <h1>Westbury Manor</h1>
         <h2>1100 Jericho Turnpike, Westbury, NY 11590, United States</h2>
-        <h2>By Car</h2>
+        <p>Keep an eye on this section for details about a <strong>private coach</strong> from Manhattan! Timing and location TBC.</p>
+        <hr />
+        <h2>Arriving by Car</h2>
         <p>The venue is located directly off of Jericho Turnpike coming Northbound from NYC. The turn onto the private driveway will be on your right directly after Rose Avenue. Plenty of parking is available at the venue.</p>
         <p className="bold">From Boston:</p>
         <p>Take 90 West to 84 West to 91 South to 15 South towards New York City. Continue to the Hutchinson River Parkway South and take 678 South to the Cross Island Parkway. Exit onto Long Island Expressway/495 East. Take the Northern State Parkway South. Take Exit 31 for Glen Cove Road/25 North/Jericho Turnpike.</p>
@@ -25,10 +26,12 @@ function Venue() {
         <p>Take the Long Island Expressway/495 East to Northern State Parkway South. Take Exit 31 for Glen Cove Road/25 North/Jericho Turnpike.</p>
         <p className="bold">From Manhattan:</p>
         <p>Take 495 East to the Midtown Tunnel and continue on Long Island Expressway/495 until you reach the Northern State Parkway South. Take Exit 31 for Glen Cove Road/25 North/Jericho Turnpike.</p>
-        <h2>By Train</h2>
+        <hr />
+        <h2>Arriving by Train</h2>
         <p>The venue is located in Westbury, New York. The nearest train station is Carle Place on the Long Island Rail Road (LIRR). We recommend taking the Port Jefferson line about 45 minutes from Penn Station (Manhattan) or 30 minutes Forest Hills (Queens) to Carle Place.</p>
         <p>The venue is about a 30-minute walk from the station or a 5-minute Uber ride.</p>
-        <h2>By Plane</h2>
+        <hr />
+        <h2>Arriving by Plane</h2>
         <p>The venue is located on Long Island, east of New York City. Flights available to three New York City airports:</p>
         <ul>
           <li>John F. Kennedy International Airport (JFK)</li>
@@ -43,13 +46,26 @@ function Venue() {
         <img className="reg-img" src={brooklynBridge} alt="Brooklyn Bridge at night" />
       </section>
       <section className="travel-banner">
-        <h3>Where to stay in...</h3>
-        <h1>New York</h1>
-        <h2>Westbury</h2>
+        <h2>Where to Stay</h2>
+        <p className="bold">In Westbury, New York:</p>
+        <section className="hotel">
+          <p><strong>Hyatt Place Garden City</strong></p>
+          <p>(516) 222-6277</p>
+          <p>www.gardencity.place.hyatt.com</p>
+        </section>
+        <section className="hotel">
+          <p><strong>Courtyard Marriott Westbury</strong></p>
+          <p>(516) 542-1001</p>
+          <p>www.marriott.com/nycbl</p>
+        </section>
+        <section className="hotel">
+          <p><strong>Viana Hotel and Spa, Westbury</strong></p>
+          <p>(516) 338-7777</p>
+          <p>www.vianahotelandspa.com</p>
+        </section>
+        <p className="bold">In Queens, New York:</p>
         <p>Coming soon...</p>
-        <h2>Queens</h2>
-        <p>Coming soon...</p>
-        <h2>Manhattan</h2>
+        <p className="bold">In Manhattan, New York:</p>
         <p>Coming soon...</p>
       </section>
     </main>

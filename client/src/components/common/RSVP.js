@@ -14,8 +14,8 @@ function RSVP() {
       </section>
       <section className="title-banner">
         <h3>Let us know if you will be joining us!</h3>
-        <h1>RSVP</h1>
-        <h2></h2>
+        <h1><span className="open-sans">RSVP</span></h1>
+        <h2>Details coming soon.</h2>
         <h4></h4>
       </section>
     </main>

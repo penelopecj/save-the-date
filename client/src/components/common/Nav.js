@@ -8,7 +8,11 @@ function Nav() {
     <header>
       <nav>
         <Link className="logo-wrapper">
-          Penny &amp; Zac
+          <p>P</p>
+          <p className="rouge-script plus">+</p>
+          <p>Z</p>
+          {/* <p></p>
+          <p> 1<span className="rouge-script">0 jul</span> 22</p> */}
           <img className="logo" src={rings} alt="rings logo"/>
         </Link>
         <ul className="top-nav">
