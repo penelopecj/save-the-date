@@ -1,11 +1,9 @@
-# The Wedding of Penelope Jungreis and Zachary Collins
-## Save the Date: Sunday 10th July 2022
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) GA London React Template
 
-### Location: 
-Westbury Manor, New York, USA
+`yarn start` to run the development server
 
-This website is the central place for keeping important dates, locations, and other information regarding Penny & Zac's wedding.
+`yarn build` to create a build directory
 
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Website created and maintained by Penelope Jungreis.
