@@ -108,7 +108,7 @@ header {
   }
   
   .top-nav a:hover {
-      color: rgb(199, 0, 149);
+      color: rgb(128, 0, 81);
       font-weight: bold;
   }
 }
@@ -123,22 +123,24 @@ main {
     border: 1.5px solid rgba(128, 128, 128, 0.2);
 }
 
-h1 {
-    font-family: 'Rouge Script', cursive;
-    font-weight: bold;
-    margin: 1rem;
 
+.fancy-font {
+  font-family: 'Rouge Script', cursive;
+  font-weight: bold;
+  margin: 1rem;
 }
 
-.invited, h3 {
-  font-family: 'Rouge Script', cursive;
+h3 {
   font-weight: bold;
   margin: 1rem;
 }
 
 h1 {
     font-size: 3rem;
-    color: rgb(199, 0, 149);
+    color: rgb(128, 0, 81);
+    font-family: 'Rouge Script', cursive;
+    font-weight: bold;
+    margin: 1rem;
     //color: slateblue;
     //color: goldenrod;
     //color: royalblue;
@@ -249,36 +251,49 @@ h2, h1 {
 }
 
 #late {
-    color: rgb(202, 0, 125);
+    color: rgb(128, 0, 81);
     animation-name: warning;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 
 @keyframes warning {
-    0% {color: rgb(202, 0, 125)}
-    25% {color: magenta}
-    50% {color: rgb(153, 0, 255)}
-    75% {color: magenta}
-    100% {color: rgb(202, 0, 125)}
+    // 0% {color: rgb(202, 0, 125)}
+    // 25% {color: magenta}
+    // 50% {color: rgb(153, 0, 255)}
+    // 75% {color: magenta}
+    // 100% {color: rgb(202, 0, 125)}
+    0% {color: rgb(128, 0, 81)}
+    50% {color: rgb(202, 0, 125)}
+    100% {color: rgb(128, 0, 81)}
 }
 
 
 // MOBILE PHONES
 
 @media only screen and (max-width: 400px) {
+    main {
+      max-width: 90%;
+    }
+
     .top-nav {
       margin-right: 10px;
     }
+
+    h1 {
+      font-size: 2.6rem;
+    }
+
     h2 {
         font-size: 1.5rem;
     }
-    .travel-banner, .photo-banner {
+
+    .photo-banner {
         max-height: 380px;
         overflow: hidden;
         flex-wrap: wrap;
-        .index-img {
-          max-width: 100%;
+        .index-img, .reg-img {
+          max-width: 90%;
         }
     }
     

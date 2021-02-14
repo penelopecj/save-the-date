@@ -43,7 +43,7 @@ function Home() {
   return (
     <main>
       <section className='title-banner'>
-        <h3 className='invited'>You&apos;re invited...</h3>
+        <h3 className='fancy-font'>You&apos;re invited...</h3>
       </section>
       <section className='photo-banner'>
         <img className='index-img' src={engaged} alt='man and woman with engagement ring' />
@@ -63,7 +63,7 @@ function Home() {
           :
           <h2></h2>
         }
-        <h3 id='late'>Don&apos;t be late!</h3>
+        <h3 className="fancy-font" id='late'>Don&apos;t be late!</h3>
       </section>
     </main>
   )

@@ -7,7 +7,7 @@ function Registry() {
 
   return (
     <main>
-      <h3>The best present is your presence...</h3>
+      <h3 className="fancy-font">The best present is your presence...</h3>
       <section className="photo-banner">
         <img className="reg-img" src={collins} alt="four people at dinner" />
         <img className="reg-img" src={jungreis} alt="group family photo with buddha" />
@@ -15,7 +15,7 @@ function Registry() {
       <section className="title-banner">
         <h3>But if you insist...</h3>
         <h1>Wedding Registry</h1>
-        <h2>Details coming soon.</h2>
+        <h2 className="fancy-font">Details coming soon.</h2>
         <h4></h4>
       </section>
     </main>
