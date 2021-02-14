@@ -52,17 +52,17 @@ function Venue() {
         <section className="hotel">
           <p><strong>Hyatt Place Garden City</strong></p>
           <p>(516) 222-6277</p>
-          <p><a className="zac" href="www.gardencity.place.hyatt.com" target="_blank">www.gardencity.place.hyatt.com</a></p>
+          <p><a className="zac" href="https://www.hyatt.com/en-US/hotel/new-york/hyatt-place-garden-city/ispzg" target="_blank" rel="noreferrer">gardencity.place.hyatt.com</a></p>
         </section>
         <section className="hotel">
           <p><strong>Courtyard Marriott Westbury</strong></p>
           <p>(516) 542-1001</p>
-          <p><a className="zac" href="www.marriott.com/nycbl" target="_blank">www.marriott.com/nycbl</a></p>
+          <p><a className="zac" href="https://www.marriott.com/hotels/travel/nycbl-courtyard-westbury-long-island/" target="_blank" rel="noreferrer">marriott.com/nycbl</a></p>
         </section>
         <section className="hotel">
           <p><strong>Viana Hotel and Spa, Westbury</strong></p>
           <p>(516) 338-7777</p>
-          <p><a className="zac" href="www.vianahotelandspa.com" target="_blank">www.vianahotelandspa.com</a></p>
+          <p><a className="zac" href="https://www.vianahotelandspa.com/" target="_blank" rel="noreferrer">vianahotelandspa.com</a></p>
         </section>
         <p className="bold big-font">In Queens, New York City:</p>
         <p>Coming soon...</p>
