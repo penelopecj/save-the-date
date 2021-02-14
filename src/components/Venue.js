@@ -1,9 +1,9 @@
 import React from 'react'
 
-import westbury from '../../images/westbury.jpg'
-import westburyManor from '../../images/westbury2.jpg'
-import timesSquare from '../../images/nyc2.jpg'
-import brooklynBridge from '../../images/nyc3.jpg'
+import westbury from '../images/westbury.jpg'
+import westburyManor from '../images/westbury2.jpg'
+import timesSquare from '../images/nyc2.jpg'
+import brooklynBridge from '../images/nyc3.jpg'
 
 function Venue() {
 

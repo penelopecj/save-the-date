@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import rings from '../../images/rings.jpg'
+import rings from '../images/rings.jpg'
 
 function Nav() {
   return (
@@ -9,7 +9,7 @@ function Nav() {
       <nav>
         <Link className="logo-wrapper">
           <p>P</p>
-          <p className="rouge-script plus">+</p>
+          <p className="plus">&amp;</p>
           <p>Z</p>
           {/* <p></p>
           <p> 1<span className="rouge-script">0 jul</span> 22</p> */}

@@ -1,11 +1,11 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import Nav from './components/common/Nav'
-import Home from './components/common/Home'
-import Venue from './components/common/Venue'
-import Registry from './components/common/Registry'
-import RSVP from './components/common/RSVP'
+import Nav from './components/Nav'
+import Home from './components/Home'
+import Venue from './components/Venue'
+import Registry from './components/Registry'
+import RSVP from './components/RSVP'
 // import Register from './components/auth/Register'
 // import Login from './components/auth/Login'
 

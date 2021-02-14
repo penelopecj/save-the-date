@@ -1,7 +1,7 @@
 import React from 'react'
 
-import collins from '../../images/collins.jpg'
-import jungreis from '../../images/jungreis.jpg'
+import collins from '../images/collins.jpg'
+import jungreis from '../images/jungreis.jpg'
 
 function Registry() {
 

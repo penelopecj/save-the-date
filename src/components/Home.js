@@ -1,8 +1,8 @@
 import React from 'react'
 
-import engaged from '../../images/engaged.jpg'
-import shifen from '../../images/shifen2.jpg'
-import bangkok from '../../images/bangkok.jpg'
+import engaged from '../images/engaged.jpg'
+import shifen from '../images/shifen2.jpg'
+import bangkok from '../images/bangkok.jpg'
 
 
 function Home() {
@@ -52,7 +52,7 @@ function Home() {
       </section>
       <section className='title-banner'>
         <h3>to the wedding of</h3>
-        <h1>Penelope Jungreis <span className="black">&amp;</span> <span className="zac"> Zachary Collins</span></h1>
+        <h1 className="penny-and-zac"><div className="penny">Penelope Jungreis</div> <div className="penny">&amp;</div> <div className="zac"> Zachary Collins</div></h1>
         <h2 className='date'>Sunday 10<span className='superscript'>th</span> July 2022</h2>
         <h4>Westbury Manor in New York</h4>
       </section>

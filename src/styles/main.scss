@@ -5,9 +5,11 @@
   color: rgb(59, 59, 59);
 }
 
-.zac {
-  color: rgb(95, 104, 201);
+.penny, .zac {
+  //color: rgb(95, 104, 201);
+  //color: goldenrod;
   text-decoration: none;
+  font-family: 'Benne', serif;
 }
 
 .bold {
@@ -29,23 +31,24 @@
 }
 
 .plus {
-  color: rgb(255, 190, 24);
-  font-size: 2.5rem;
+  //color: rgb(255, 190, 24);
+  font-size: 2rem;
   padding-left: 3px;
 }
 
 body {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
-    margin: 0;
+    margin: 0 auto;
+    width: 100%;
     background-image: url("../images/floral.jpg");
 }
 
 header {
     display: flex;
     width: 100%;
-    height: 9vh;
-    justify-content: space-between;
+    height: 65px;
+    //justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.308);
     position: fixed;
@@ -60,15 +63,23 @@ header {
   } 
 
   .logo-wrapper {
+    font-family: 'Benne', serif;
+    //font-family: 'Rouge Script', cursive;
     display: flex;
     align-items: center;
-    color: goldenrod;
-    justify-content: flex-start;
+    color: black;
+    //color: goldenrod;
+    //justify-content: flex-start;
     margin-left: 10px;
     width: 40%;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
+    p {
+      margin: 0;
+      padding-top: 12px;
+    }
+
   }
 
   .logo {
@@ -82,10 +93,10 @@ header {
       justify-content: space-evenly;
       align-items: center;
       list-style: none;
-      position: fixed;
-      right: 0;
+      //position: fixed;
+      //right: 0;
       padding: 0;
-      top: 0;
+      //top: 0;
   }
   
   .top-nav a {
@@ -112,15 +123,25 @@ main {
     border: 1.5px solid rgba(128, 128, 128, 0.2);
 }
 
-.invited, h1, h3 {
+h1 {
     font-family: 'Rouge Script', cursive;
     font-weight: bold;
     margin: 1rem;
+
+}
+
+.invited, h3 {
+  font-family: 'Rouge Script', cursive;
+  font-weight: bold;
+  margin: 1rem;
 }
 
 h1 {
     font-size: 3rem;
     color: rgb(199, 0, 149);
+    //color: slateblue;
+    //color: goldenrod;
+    //color: royalblue;
 }
 
 .invited {
@@ -141,6 +162,27 @@ h3, h4 {
 
 h2, h1 {
     margin: 1rem;
+}
+
+.penny-and-zac {
+  //color: slateblue;
+  color: rgb(128, 0, 81);
+  //color: black;
+  font-size: 2.5rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  max-width: 600px;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 700px) {
+  .penny-and-zac {
+    flex-direction: column;
+    .black {
+      font-size: 2rem;
+    }
+  }
 }
 
 .hotel {
@@ -221,11 +263,23 @@ h2, h1 {
     100% {color: rgb(202, 0, 125)}
 }
 
+
+// MOBILE PHONES
+
 @media only screen and (max-width: 400px) {
+    .top-nav {
+      margin-right: 10px;
+    }
     h2 {
         font-size: 1.5rem;
     }
     .travel-banner, .photo-banner {
-        width: 100%;
+        max-height: 380px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        .index-img {
+          max-width: 100%;
+        }
     }
+    
 }

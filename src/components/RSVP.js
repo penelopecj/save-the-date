@@ -1,6 +1,6 @@
 import React from 'react'
 
-// import {} from '../../images/.jpg'
+// import {} from '../images/.jpg'
 
 function RSVP() {
 
