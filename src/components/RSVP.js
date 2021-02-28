@@ -13,10 +13,10 @@ function RSVP() {
         <img className="index-img" src="" alt="" /> */}
       </section>
       <section className="title-banner">
-        <h3>Let us know if you will be joining us!</h3>
-        <h1><span className="open-sans">RSVP</span></h1>
-        <h2  className="fancy-font">Details coming soon.</h2>
-        <h4></h4>
+        <h3>Please save the date</h3>
+        <h2 className="date open-sans orchid">Sunday 10<span className="superscript">th</span> July 2022</h2>
+        <a target="_blank" rel="noreferrer" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=M3ZzOTZuaXBudTQ5dXQwZWgybzBrZDU5c2ogcGVubnl6YWMyQG0&amp;tmsrc=pennyzac2%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif" /></a>
+        <h4 className="fancy-font">More details coming soon.</h4>
       </section>
     </main>
   )
