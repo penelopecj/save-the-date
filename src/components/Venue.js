@@ -17,8 +17,8 @@ function Venue() {
           <img src={westburyManor} alt="outdoor wedding ceremony arch" />
         </figure>
       </section>
+      <h1 className="centered">Westbury Manor</h1>
       <section className="travel-banner">
-        <h1>Westbury Manor</h1>
         <h2>1100 Jericho Turnpike, Westbury, NY 11590, United States</h2>
         <p>The venue is located about 40 minutes drive from Manhattan.</p>
         <p>Keep an eye on this section for details about a <span className="bold">private coach</span> from Manhattan to the venue! Timing and location TBC.</p>
