@@ -24,6 +24,10 @@
   color: rgb(128, 0, 81);
 }
 
+.flex-box {
+  display: flex;
+}
+
 .big-font {
   font-size: 1.8rem;
 
@@ -171,10 +175,11 @@ header {
 
 main {
     margin: 0 auto 0 auto;
-    padding: 6rem 0.5rem 3rem 0.5rem;
+    padding-top: 6rem;
     max-width: 80%;
     background-color: rgba(255, 255, 255, 0.6);
     border: 1.5px solid rgba(128, 128, 128, 0.2);
+    min-height: 100vh;
 }
 
 
@@ -261,35 +266,38 @@ h2, h1 {
 }
 
 .photo-banner {
-  //margin: 0 auto;
+  margin: 5px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+  //flex-wrap: wrap;
   // max-width: 840px; 
   // max-height: 400px;
 
   figure {
-    width: 23%;
+    margin: 0 auto;
+
+    img {
+      max-width: 100%;
+      //height: auto;
+      //margin: 7px;
+      margin: 0;
+      padding: 8px;
+      border: 6px outset rgba(192, 192, 192, 0.8);
+      background-color: rgba(255, 255, 255, 0.486);
+    }
+  }
+
+  .portrait {
+    width: 32%;
+  }
+
+  .landscape {
+    width: 48%;
   }
   
-  img {
-    width: 100%;
-    height: auto;
-    //margin: 7px;
-    padding: 8px;
-    border: 6px outset rgba(192, 192, 192, 0.8);
-    background-color: rgba(255, 255, 255, 0.486);
-  }
+  
 }
-
-// .photo-banner .reg-img {
-    // max-width: 50%;
-    // height: auto;
-    // margin: 7px;
-    // padding: 8px;
-    // border: 6px outset rgba(192, 192, 192, 0.8);
-    // background-color: rgba(255, 255, 255, 0.486);
-// }
 
 .title-banner, .countdown-banner {
     text-align: center;
@@ -342,9 +350,6 @@ h2, h1 {
 }
 
 
-// MOBILE PHONES
-
-
 // RSVP PAGE
 .google-btn {
   height: 40px;
@@ -358,16 +363,89 @@ h2, h1 {
   box-shadow: 0 0 3px 2px rgba(176, 176, 176, 0.4);
 }
 
+.save-the-date {
+  font-size: 3rem;
+
+  .superscript {
+    font-size: 1.7rem;
+  }
+}
+
+.contact {
+  margin-top: 2rem;
+  
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+
+  span {
+    margin-right: 5px;
+  }
+}
+
+.email:hover {
+  color:rgb(128, 0, 81);
+}
+
+
+
+// FOOTER PAGE
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(125, 125, 125);
+  font-size: 1rem;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  li {
+    margin: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .big-icon {
+    font-size: 1.1rem;
+  }
+}
+
+
+
+
 //iPHONE MEDIA QUERIES 
 
 @media only screen and (max-width: 500px) {
   main {
     max-width: 90%;
+    padding-top: 4rem;
   }
-
-  // .top-nav {
-  //   margin-right: 10px;
-  // }
 
   h1 {
     font-size: 2.6rem;
@@ -377,18 +455,29 @@ h2, h1 {
       font-size: 1.5rem;
   }
 
+  h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .photo-banner .portrait {
+    width: 48%;
+  }
+
+  .vanish {
+    display: none;
+  }
+
   .fancy-font {
     font-size: 2rem;
   }
-
-  // .photo-banner {
-  //     max-height: 380px;
-  //     overflow: hidden;
-  //     flex-wrap: wrap;
-  //     .index-img, .reg-img {
-  //       max-width: 90%;
-  //     }
-  // }
+  .save-the-date {
+    font-size: 2.3rem;
+  
+    .superscript {
+      font-size: 1.3rem;
+    }
+  }
 
   .countdown-banner {
     article {

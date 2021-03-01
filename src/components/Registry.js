@@ -9,8 +9,12 @@ function Registry() {
     <main>
       <h3 className="fancy-font">The best present is your presence...</h3>
       <section className="photo-banner">
-        <img className="reg-img" src={collins} alt="four people at dinner" />
-        <img className="reg-img" src={jungreis} alt="group family photo with buddha" />
+        <figure className="landscape">
+          <img src={collins} alt="four people at dinner" />
+        </figure>
+        <figure className="landscape">
+          <img src={jungreis} alt="group family photo with buddha" />
+        </figure>
       </section>
       <section className="title-banner">
         <h3>But if you insist...</h3>

@@ -53,13 +53,13 @@ function Home() {
         <h3 className='fancy-font'>You&apos;re invited...</h3>
       </section>
       <section className='photo-banner'>
-        <figure>
+        <figure className="portrait">
           <img src={engaged} alt='man and woman with engagement ring' />
         </figure>
-        <figure>
+        <figure className="portrait vanish">
           <img src={shifen} alt='couple kissing on train tracks' />
         </figure>
-        <figure>
+        <figure className="portrait">
           <img src={bangkok} alt='couple smiling with view behind' />
         </figure>
       </section>
