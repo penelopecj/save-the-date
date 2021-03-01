@@ -270,17 +270,12 @@ h2, h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  //flex-wrap: wrap;
-  // max-width: 840px; 
-  // max-height: 400px;
 
   figure {
     margin: 0 auto;
 
     img {
-      max-width: 100%;
-      //height: auto;
-      //margin: 7px;
+      width: 100%;
       margin: 0;
       padding: 8px;
       border: 6px outset rgba(192, 192, 192, 0.8);
@@ -456,8 +451,13 @@ footer {
   }
 
   h3 {
+    font-size: 1.5rem;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .penny-and-zac {
+    font-size: 2rem;
   }
 
   .photo-banner .portrait {
@@ -468,9 +468,24 @@ footer {
     display: none;
   }
 
+  .photo-banner {
+    margin: 0;
+
+    figure img {
+      width: 100%;
+      margin: 0;
+      padding: 3px;
+      border: 2px solid rgba(192, 192, 192, 0.8);
+      background-color: rgba(255, 255, 255, 0.486);
+    }
+    
+    
+  }
+
   .fancy-font {
     font-size: 2rem;
   }
+
   .save-the-date {
     font-size: 2.3rem;
   
@@ -492,6 +507,39 @@ footer {
   #late {
     font-size: 2rem;
   }
+
+  .travel-banner {
+    .big-font {
+      font-size: 1.1rem;
+      margin: 0;
+    }
+
+    .driving {
+      margin-bottom: -10px;
+    }
+  }
+  
+  
+
+
+
+  .google-btn {
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(152, 152, 152);
+    box-shadow: 0 0 3px 1px rgba(176, 176, 176, 0.4);
+  }
+  
+  .google-btn:hover {
+    border: 1px solid rgb(152, 152, 152);
+    box-shadow: 0 0 3px 1px rgba(176, 176, 176, 0.4);
+  }
+
+  .email {
+    color: rgb(128, 0, 81);
+    font-size: 1.2rem;
+  }
+
 }
 
 // MOBILE NAV MENU

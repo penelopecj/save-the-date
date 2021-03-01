@@ -25,11 +25,11 @@ function Venue() {
         <hr />
         <h2>Arriving by Car</h2>
         <p>The venue is located directly off of Jericho Turnpike coming Northbound from NYC. The turn onto the private driveway will be on your right directly after Rose Avenue. Plenty of parking is available at the venue.</p>
-        <p className="bold">From Boston:</p>
+        <p className="bold driving">From Boston:</p>
         <p>Take 90 West to 84 West to 91 South to 15 South towards New York City. Continue to the Hutchinson River Parkway South and take 678 South to the Cross Island Parkway. Exit onto Long Island Expressway/495 East. Take the Northern State Parkway South. Take Exit 31 for Glen Cove Road/25 North/Jericho Turnpike.</p>
-        <p className="bold">From Queens:</p>
+        <p className="bold driving">From Queens:</p>
         <p>Take the Long Island Expressway/495 East to Northern State Parkway South. Take Exit 31 for Glen Cove Road/25 North/Jericho Turnpike.</p>
-        <p className="bold">From Manhattan:</p>
+        <p className="bold driving">From Manhattan:</p>
         <p>Take 495 East to the Midtown Tunnel and continue on Long Island Expressway/495 until you reach the Northern State Parkway South. Take Exit 31 for Glen Cove Road/25 North/Jericho Turnpike.</p>
         <hr />
         <h2>Arriving by Train</h2>
@@ -72,10 +72,10 @@ function Venue() {
           <p>(516) 338-7777</p>
           <p><a className="zac" href="https://www.vianahotelandspa.com/" target="_blank" rel="noreferrer">vianahotelandspa.com</a></p>
         </section>
-        <p className="bold big-font">In Queens, New York City:</p>
+        {/* <p className="bold big-font">In Queens, New York City:</p>
         <p>Coming soon...</p>
         <p className="bold big-font">In Manhattan, New York City:</p>
-        <p>Coming soon...</p>
+        <p>Coming soon...</p> */}
       </section>
     </main>
   )
