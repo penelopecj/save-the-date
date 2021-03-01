@@ -266,7 +266,9 @@ h2, h1 {
 }
 
 .photo-banner {
-  margin: 5px;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -299,7 +301,8 @@ h2, h1 {
 }
 
 .travel-banner {
-    max-width: 80%;
+    max-width: 1000px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -443,7 +446,7 @@ footer {
   }
 
   h1 {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
   }
 
   h2 {
@@ -469,7 +472,9 @@ footer {
   }
 
   .photo-banner {
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 30px;
 
     figure img {
       width: 100%;
@@ -508,7 +513,8 @@ footer {
     font-size: 2rem;
   }
 
-  .travel-banner {
+  .travel-banner {ß
+
     .big-font {
       font-size: 1.1rem;
       margin: 0;
