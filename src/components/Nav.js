@@ -4,31 +4,46 @@ import { Link } from 'react-router-dom'
 import rings from '../images/rings.jpg'
 
 function Nav() {
+  const [isOpen, setIsOpen] = React.useState(false)
+
+  const handleMenuToggle = () => {
+    setIsOpen(!isOpen)
+  }
+
+  const handleMenuClose = () => {
+    setIsOpen(false)
+  }
   return (
     <header>
       <nav>
-        <Link className="logo-wrapper">
+        <Link className="logo-wrapper" to="/"  onClick={handleMenuClose}>
           <p>P</p>
           <p className="plus">&amp;</p>
           <p>Z</p>
-          {/* <p></p>
-          <p> 1<span className="rouge-script">0 jul</span> 22</p> */}
           <img className="logo" src={rings} alt="rings logo"/>
         </Link>
-        <ul className="top-nav">
-          <li>
-            <Link to="/">Home</Link>
+        <ul className={isOpen ? '' : 'hide-menu'}>
+          <li className="mobile-divider">
+            <Link to="/" onClick={handleMenuToggle}>Home</Link>
           </li>
-          <li>
-            <Link to="/venue">Venue</Link>
+          <li className="mobile-divider">
+            <Link to="/venue" onClick={handleMenuToggle}>Venue</Link>
           </li>
-          <li>
-            <Link to="/registry">Registry</Link>
+          <li className="mobile-divider">
+            <Link to="/registry" onClick={handleMenuToggle}>Registry</Link>
           </li>
-          <li>
-            <Link to="/rsvp">RSVP</Link>
+          <li className="mobile-divider">
+            <Link to="/rsvp" onClick={handleMenuToggle}>RSVP</Link>
           </li>
-        </ul>
+        </ul> 
+        <div 
+          onClick={handleMenuToggle} 
+          className={`toggle-btn ${isOpen ? 'close-btn' : 'open-btn'}`}
+        >
+          <div className="line-one">|</div>
+          <div className="line-two">|</div>
+          <div className="line-three">|</div>
+        </div>
       </nav>
     </header>
 

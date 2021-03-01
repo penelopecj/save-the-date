@@ -8,8 +8,10 @@ import bangkok from '../images/bangkok.jpg'
 function Home() {
 
   // Set the date we're counting down to
-  const [countDown, setCountDown] = React.useState(null)
-  //document.querySelector('#countdown')
+  const [days, setDays] = React.useState(null)
+  const [hours, setHours] = React.useState(null)
+  const [minutes, setMinutes] = React.useState(null)
+  const [seconds, setSeconds] = React.useState(null)
   const countDownDate = new Date('July 10, 2022 18:30:00').getTime()
 
   // Update the count down every 1 second
@@ -27,16 +29,21 @@ function Home() {
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
     const seconds = Math.floor((distance % (1000 * 60)) / 1000)
 
-    // Display the result in the element with id='demo'
-    //countDown.innerHTML = 
-    setCountDown(days + ' days, ' + hours + ' hours, '
-    + minutes + ' minutes, and ' + seconds + ' seconds')
+    // Display the result in the JSX 
+    // setCountDown(days + ' days, ' + hours + ' hours, '
+    // + minutes + ' minutes, and ' + seconds + ' seconds') <-- All in one line, not mobile responsive
+    setDays(days + ' days')
+    setHours(hours + ' hours')
+    setMinutes(minutes + ' minutes')
+    setSeconds(seconds + ' seconds')
 
     // If the count down is finished, write some text
     if (distance < 0) {
       clearInterval(x)
-      //countDown.innerHTML = 
-      setCountDown('MAZEL TOV!!!')
+      setDays('MAZEL TOV!!!')
+      setHours('')
+      setMinutes('')
+      setSeconds('')
     }
   }, 1000)
 
@@ -46,9 +53,15 @@ function Home() {
         <h3 className='fancy-font'>You&apos;re invited...</h3>
       </section>
       <section className='photo-banner'>
-        <img className='index-img' src={engaged} alt='man and woman with engagement ring' />
-        <img className='index-img' src={shifen} alt='couple kissing on train tracks' />
-        <img className='index-img' src={bangkok}alt='couple smiling with view behind' />
+        <figure>
+          <img src={engaged} alt='man and woman with engagement ring' />
+        </figure>
+        <figure>
+          <img src={shifen} alt='couple kissing on train tracks' />
+        </figure>
+        <figure>
+          <img src={bangkok} alt='couple smiling with view behind' />
+        </figure>
       </section>
       <section className='title-banner'>
         <h3>to the wedding of</h3>
@@ -57,11 +70,29 @@ function Home() {
         <h4>Westbury Manor in New York</h4>
       </section>
 
-      <section className='countdown-banner'>
-        {countDown ? 
-          <h2>Ceremony begins in <span id='countdown'>{countDown}</span></h2>
+      <section className="countdown-banner open-sans bold">
+        {days && hours && minutes && seconds ? 
+          <article>
+            <div>Ceremony begins in </div>
+            <div>
+              {days}
+              <span className="countdown-punctuation">, </span>
+            </div>
+            <div>
+              {hours}
+              <span className="countdown-punctuation">, </span>
+            </div>
+            <div>
+              {minutes}
+              <span className="countdown-punctuation">, and </span>
+            </div>
+            <div>
+              {seconds}
+              <span className="countdown-punctuation"></span>
+            </div>
+          </article>
           :
-          <h2></h2>
+          <div></div>
         }
         <h3 className="fancy-font" id='late'>Don&apos;t be late!</h3>
       </section>
