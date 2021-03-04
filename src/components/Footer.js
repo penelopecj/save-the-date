@@ -8,7 +8,7 @@ function Footer() {
       <ul>
         <li>
           <a href="https://penelopejungreis.com" target="_blank" rel="noreferrer">
-            <i className="material-icons large-icon">laptop</i>
+            <i className="material-icons large-icon">laptop_mac</i>
           </a>
         </li>
         <li> 
