@@ -20,8 +20,8 @@ function Venue() {
       <h1 className="centered">Westbury Manor</h1>
       <section className="travel-banner">
         <h2>1100 Jericho Turnpike, Westbury, NY 11590, United States</h2>
-        <p>The venue is located about 40 minutes drive from Manhattan.</p>
-        <p>Keep an eye on this section for details about a <span className="bold">private coach</span> from Manhattan to the venue! Timing and location TBC.</p>
+        <p className="centered">The venue is located about <strong>40 minutes</strong> drive from Manhattan.</p>
+        <p className="centered">Keep an eye on this section for more details about our recommended <strong>hotel near the venue</strong> and how to get there.</p>
         <hr />
         <h2>Arriving by Car</h2>
         <p>The venue is located directly off of Jericho Turnpike coming Northbound from NYC. The turn onto the private driveway will be on your right directly after Rose Avenue. Plenty of parking is available at the venue.</p>
@@ -54,9 +54,10 @@ function Venue() {
           <img src={brooklynBridge} alt="Brooklyn Bridge at night" />
         </figure>
       </section>
-      <section className="travel-banner">
+      <br />
+      {/* <section className="travel-banner">
         <h2>Where to Stay</h2>
-        <p className="bold big-font">In Westbury, Long Island (near the venue):</p>
+        <p className="bold">In Westbury, Long Island (near the venue):</p>
         <section className="hotel">
           <p><strong>Hyatt Place Garden City</strong></p>
           <p>(516) 222-6277</p>
@@ -72,11 +73,7 @@ function Venue() {
           <p>(516) 338-7777</p>
           <p><a className="zac" href="https://www.vianahotelandspa.com/" target="_blank" rel="noreferrer">vianahotelandspa.com</a></p>
         </section>
-        {/* <p className="bold big-font">In Queens, New York City:</p>
-        <p>Coming soon...</p>
-        <p className="bold big-font">In Manhattan, New York City:</p>
-        <p>Coming soon...</p> */}
-      </section>
+      </section> */}
     </main>
   )
 }
