@@ -12,7 +12,7 @@ function Home() {
   const [hours, setHours] = React.useState(null)
   const [minutes, setMinutes] = React.useState(null)
   const [seconds, setSeconds] = React.useState(null)
-  const countDownDate = new Date('July 10, 2022 18:30:00').getTime()
+  const countDownDate = new Date('July 10, 2022 17:30:00 EDT').getTime()
 
   // Update the count down every 1 second
   const x = setInterval(function() {
@@ -54,19 +54,19 @@ function Home() {
       </section>
       <section className='photo-banner'>
         <figure className="portrait">
-          <img src={engaged} alt='man and woman with engagement ring' />
+          <img src={engaged} alt='penny and zac with engagement ring' />
         </figure>
         <figure className="portrait vanish">
-          <img src={shifen} alt='couple kissing on train tracks' />
+          <img src={shifen} alt='penny and zac kissing on train tracks' />
         </figure>
         <figure className="portrait">
-          <img src={bangkok} alt='couple smiling with view behind' />
+          <img src={bangkok} alt='penny and zac in party attire' />
         </figure>
       </section>
       <section className='title-banner'>
         <h3>to the wedding of</h3>
         <h1 className="penny-and-zac"><div className="penny">Penelope Jungreis</div> <div className="penny">&amp;</div> <div className="zac"> Zachary Collins</div></h1>
-        <h2 className="date">Sunday 10<span className="superscript">th</span> July 2022</h2>
+        <h2 className="date">Sunday 10<span className="superscript">th</span> July 2022, 5:30pm</h2>
         <h4>Westbury Manor in New York</h4>
       </section>
 

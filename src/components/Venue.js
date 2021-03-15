@@ -19,7 +19,7 @@ function Venue() {
       </section>
       <h1 className="centered">Westbury Manor</h1>
       <section className="travel-banner">
-        <h2>1100 Jericho Turnpike, Westbury, NY 11590, United States</h2>
+        <h2>1100 Jericho Turnpike, Westbury, New York 11590, United States</h2>
         <p className="centered">The venue is located about <strong>40 minutes</strong> drive from Manhattan.</p>
         <p className="centered">Keep an eye on this section for more details about our recommended <strong>hotel near the venue</strong> and how to get there.</p>
         <hr />
