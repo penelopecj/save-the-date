@@ -7,5 +7,6 @@
     "titleBar.inactiveForeground": "#000",
     "titleBar.activeForeground": "#000",
   },
-  "window.title": "💐👰🏻 Save the Date 🤵🏻💐"
+  "window.title": "💐👰🏻 Save the Date 🤵🏻💐",
+  "python.pythonPath": "/Users/penelopejungreis/.local/share/virtualenvs/save-the-date-70oAr5yI/bin/python"
 }
