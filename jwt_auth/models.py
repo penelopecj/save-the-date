@@ -3,12 +3,13 @@ from django.contrib.auth.models import AbstractUser
 
 class User(AbstractUser):
   email = models.CharField(max_length=50, unique=True)
-  first_name = models.CharField(max_length=50, blank=True)
-  last_name = models.CharField(max_length=50, blank=True)
+  first_name = models.CharField(max_length=50)
+  last_name = models.CharField(max_length=50)
   address = models.CharField(max_length=100, blank=True)
   phone_number = models.CharField(max_length=50, blank=True)
   is_attending = models.BooleanField(default=False)
-  party_size = models.PositiveIntegerField
+  party_size = models.PositiveIntegerField(default=0)
+  party = models.CharField(max_length=100, blank=True)
   is_vegetarian = models.BooleanField(default=False)
   is_vegan = models.BooleanField(default=False)
   is_kosher = models.BooleanField(default=False)
