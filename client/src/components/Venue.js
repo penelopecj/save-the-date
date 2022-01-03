@@ -20,8 +20,7 @@ function Venue() {
       <h1 className="centered">Westbury Manor</h1>
       <section className="travel-banner">
         <h2>1100 Jericho Turnpike, Westbury, New York 11590, United States</h2>
-        <p className="centered">The venue is located about <strong>45 minutes</strong> drive from Manhattan, but please leave extra time for traffic.</p>
-        <p className="centered">Keep an eye on this section for more details about our recommended <strong>hotel near the venue</strong> and how to get there.</p>
+        <p className="centered">The wedding venue is located about <strong>45 minutes</strong> drive from Manhattan, but please leave extra time for traffic.</p>
         <hr />
         <h2>Arriving by Car</h2>
         <p>The venue is located directly off of Jericho Turnpike coming Northbound from NYC. The turn onto the private driveway will be on your right directly after Rose Avenue. Plenty of parking is available at the venue.</p>
@@ -37,13 +36,13 @@ function Venue() {
         <p>The venue is a 30-minute walk from the station or a 5-minute Uber ride.</p>
         <hr />
         <h2>Arriving by Plane</h2>
-        <p>The venue is located on Long Island, east of New York City. Flights available to three New York City airports:</p>
+        <p>The venue is located on Long Island, east of New York City. Flights are available to three New York City airports:</p>
         <ul>
           <li>John F. Kennedy International Airport (JFK)</li>
           <li>LaGuardia Airport (LGA)</li>
           <li>Newark Liberty International Airport (EWR)</li>
         </ul>
-        <p>JFK and LaGuardia airports are located in Queens, New York and are the closest to the venue. Newark airport is located in New Jersey, to the west of Manhattan on the opposite side to the venue.</p>
+        <p>JFK and LaGuardia airports are located in Queens, New York and are the closest to the venue. Newark airport is located in New Jersey, which is to the west of Manhattan and much farther from the venue.</p>
         <p>If you will be flying internationally, we recommend booking a direct flight if possible and planning for plenty of time to get through busy US customs (during summer vacation time).</p>
       </section>
       <section className="photo-banner">

@@ -6,7 +6,7 @@ function RSVP() {
 
   return (
     <main>
-      <h3 className="fancy-font">We&apos;d love to see you there next year...</h3>
+      <h3 className="fancy-font">We&apos;d love to see you there...</h3>
       <section className="photo-banner">
         {/* <img className="index-img" src="" alt="" />
         <img className="index-img" src="" alt="" />
