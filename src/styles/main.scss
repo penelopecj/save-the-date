@@ -19,6 +19,10 @@
     font-size: 1.5rem;
 }
 
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+
 strong {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -539,6 +543,12 @@ footer {
     .driving {
       margin-bottom: -10px;
     }
+  }
+
+  .booking-btn {
+    margin: 15px auto;
+    padding: 5px 10px;
+    height: auto;
   }
 
   .google-btn {

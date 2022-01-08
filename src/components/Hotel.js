@@ -21,22 +21,22 @@ function Hotel() {
       <section className="travel-banner">
         <h2>1350 Walt Whitman Road, Melville, New York 11747, United States</h2>
         <p className="centered">The hotel is located about <strong>20 minutes</strong> drive from the wedding venue.</p>
-        <p className="centered">Let us know if you book a room and whether you would be interested in <strong>group transportation</strong> from the hotel to the venue.</p>
+        <p className="centered">Please let us know if you book a room and whether you would be interested in <strong>group transportation</strong> from the hotel to the venue.</p>
         <hr />
         <h2>Book a Room</h2>
-        <p>We are staying at the Marriott Melville the night before the wedding (Saturday 9th July) and the night of the wedding (Sunday 10th July). We hope to arrange a group transportation option from the hotel to the wedding venue and back on Sunday 10th July.</p>
-        <p>If you think there&apos;s a chance that you will want to stay at the Marriott Melville, we suggest going ahead and making a reservation, since it can be cancelled up until 3 days before the wedding if you decide not to stay there. There are discounts available for those over 62, for AAA/CAA membership, and for Marriott membership (which you can get for free).</p>
+        <p>Many of us are staying at the Marriott Melville the night before the wedding (Saturday 9th July) and the night of the wedding (Sunday 10th July). We hope to arrange a group transportation option from the hotel to the wedding venue and back on Sunday 10th July. If enough people stay at the hotel, we will try to arrange a private farewell breakfast on Monday 11th July.</p>
+        <p>If you think there&apos;s a chance that you will want to stay at the Marriott Melville, we suggest going ahead and making a reservation now, since it can be cancelled up until 3 days before the wedding if you decide not to stay there. There are discounts available for Seniors over 62, for AAA/CAA membership, and for Marriott membership (which you can get for free).</p>
         <p className="bold driving">Reservations can be made here:</p>
         <a href="https://www.marriott.com/hotels/travel/nycml-marriott-melville-long-island/" target="_blank" rel="noreferrer">
           <button className="booking-btn">
             Book Now
           </button>
         </a>
-        <p> Pick the &apos;Edit&apos; button in the upper right to get the AAA/CAA and senior discount options.</p>
+        <p>Click on the &apos;Edit&apos; button to include the AAA / CAA or Senior Discount &apos;Special Rates&apos;.</p>
         <hr />
         <h2>Hotel Transport</h2>
-        <p>The hotel is located in Melville, New York - a bit farther into Long Island than the wedding venue. The nearest train station is Pinelawn on the Long Island Rail Road (LIRR).</p>
-        <p>We recommend driving or taking a taxi to the hotel. Otherwise, we recommend taking the Ronkonkoma branch to Pinelawn and getting a 10-minute Uber ride from Pinelawn station to the hotel.</p>
+        <p>The hotel is located in Melville, New York - a bit farther into Long Island than the wedding venue. The nearest train station is Pinelawn on the Ronkonkoma branch of the Long Island Rail Road (LIRR).</p>
+        <p>We recommend driving or taking a taxi to the hotel. Otherwise, you can take the Ronkonkoma branch to Pinelawn Station and get a 10-minute Uber from there to the hotel.</p>
         <p>We hope to arrange group transport to and from the venue on Sunday 10th July, so please let us know if you will require transport.</p>
       </section>
       <section className="photo-banner">
