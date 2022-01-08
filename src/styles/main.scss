@@ -368,6 +368,16 @@ h2, h1 {
 }
 
 // RSVP PAGE
+.btns-wrapper {
+  display: flex;
+  justify-content: center;
+
+  .google-btn, .booking-btn {
+    margin: 0 5px;
+  }
+
+}
+
 .google-btn, .booking-btn {
   height: 40px;
   border-radius: 10px;

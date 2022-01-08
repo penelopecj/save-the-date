@@ -21,7 +21,7 @@ function Covid() {
         </a>
         <hr />
         <h2>Masks and Vaccinations</h2>
-        <p>We will not be asking our guests to wear a mask for any part of the wedding, nor requiring that they be vaccinated; however, we can&apos;t control what government requirements might be in effect in July. Current New York State rules require all venues to either require ALL guests to be fully vaccinated against COVID-19 or require ALL guests to wear masks indoors, with the venue deciding which of the two requirements to impose. That policy is set to expire soon, but if it is extended through July, we don&apos;t known whether Westbury Manor will require vaccination or mask wearing.</p>
+        <p>We will not be asking our guests to wear a mask for any part of the wedding, nor requiring that they be vaccinated; however, we can&apos;t control what government requirements might be in effect in July. Current New York State rules require all venues to either require ALL guests to be fully vaccinated against COVID-19 or require ALL guests to wear masks indoors, with the venue deciding which of the two requirements to impose. That policy is set to expire soon, but if it is extended through July, we don&apos;t know whether Westbury Manor will require vaccination or mask wearing.</p>
         <p>Although the wedding venue is outside of New York City, anyone planning on site-seeing should be aware that New York City currently has much stricter rules than New York State: requiring proof of full vaccination at restaurants and most indoor entertainment spaces, and requiring unvaccinated individuals to wear masks in all public spaces, even outdoors. </p>
         <p>We will update this section if the rules change.</p>
         <hr />

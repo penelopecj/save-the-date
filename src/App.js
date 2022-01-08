@@ -7,6 +7,7 @@ import Venue from './components/Venue'
 import Hotel from './components/Hotel'
 import Covid from './components/Covid'
 import Registry from './components/Registry'
+import Dress from './components/Dress'
 import RSVP from './components/RSVP'
 import Footer from './components/Footer'
 // import Register from './components/auth/Register'
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/hotel" component={Hotel} />
         <Route exact path="/covid" component={Covid} />
         <Route exact path="/registry" component={Registry} />
+        <Route exact path="/dress-code" component={Dress} />
         <Route exact path="/rsvp" component={RSVP} />
       </Switch>
       <Footer />

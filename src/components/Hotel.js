@@ -32,7 +32,7 @@ function Hotel() {
             Book Now
           </button>
         </a>
-        <p>Click on the &apos;Edit&apos; button to include the AAA / CAA or Senior Discount &apos;Special Rates&apos;.</p>
+        <p>Click on the &apos;View Rates&apos; button and then the &apos;Edit&apos; button to include the AAA / CAA or Senior Discount &apos;Special Rates&apos;.</p>
         <hr />
         <h2>Hotel Transport</h2>
         <p>The hotel is located in Melville, New York - a bit farther into Long Island than the wedding venue. The nearest train station is Pinelawn on the Ronkonkoma branch of the Long Island Rail Road (LIRR).</p>
