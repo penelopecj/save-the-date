@@ -1,6 +1,7 @@
 import React from 'react'
 
-// import {} from '../images/.jpg'
+import marthasVineyard from '../images/marthas-vineyard.jpg'
+import afternoonTea from '../images/afternoon-tea.jpg'
 
 function RSVP() {
 
@@ -8,9 +9,12 @@ function RSVP() {
     <main>
       <h3 className="fancy-font">We&apos;d love to see you there...</h3>
       <section className="photo-banner">
-        {/* <img className="index-img" src="" alt="" />
-        <img className="index-img" src="" alt="" />
-        <img className="index-img" src="" alt="" /> */}
+        <figure className="landscape">
+          <img className="index-img" src={marthasVineyard} alt="penny, zac, calvin, june, and irwin on bow of a ship" />
+        </figure>
+        <figure className="landscape">
+          <img className="index-img" src={afternoonTea} alt="Penny, Melissa, and Chandler on a boat" />
+        </figure>
       </section>
       <section className="title-banner">
         <h3>Please save the date</h3>
@@ -30,7 +34,8 @@ function RSVP() {
             pennyzac2@gmail.com
           </a>
         </div>
-        
+        <br />
+        <br />
       </section>
     </main>
   )

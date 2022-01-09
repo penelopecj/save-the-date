@@ -33,6 +33,9 @@ function Nav() {
             <Link to="/hotel" onClick={handleMenuToggle}>Hotel</Link>
           </li>
           <li className="mobile-divider">
+            <Link to="/nyc" onClick={handleMenuToggle}>NYC</Link>
+          </li>
+          <li className="mobile-divider">
             <Link to="/covid" onClick={handleMenuToggle}>Covid</Link>
           </li>
           <li className="mobile-divider">

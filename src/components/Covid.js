@@ -25,7 +25,7 @@ function Covid() {
         <p>Although the wedding venue is outside of New York City, anyone planning on site-seeing should be aware that New York City currently has much stricter rules than New York State: requiring proof of full vaccination at restaurants and most indoor entertainment spaces, and requiring unvaccinated individuals to wear masks in all public spaces, even outdoors. </p>
         <p>We will update this section if the rules change.</p>
         <hr />
-        <p>For any complaints, discussion, or contentious politcal debate on these topics, please contact Irwin Jungreis on <a href="mailto:iljungr@csail.mit.edu">iljungr@csail.mit.edu</a>. We want nothing to do with it.</p>
+        <p>For any complaints, discussion, or contentious politcal debate on these topics, please contact Irwin Jungreis at <a href="mailto:iljungr@csail.mit.edu">iljungr@csail.mit.edu</a>. We want nothing to do with it.</p>
       </section>
     </main>
   )

@@ -2,8 +2,6 @@ import React from 'react'
 
 import westbury from '../images/westbury.jpg'
 import westburyManor from '../images/westbury2.jpg'
-import timesSquare from '../images/nyc2.jpg'
-import brooklynBridge from '../images/nyc3.jpg'
 
 function Venue() {
 
@@ -45,34 +43,7 @@ function Venue() {
         <p>JFK and LaGuardia airports are located in Queens, New York and are the closest to the venue. Newark airport is located in New Jersey, which is to the west of Manhattan and much farther from the venue.</p>
         <p>If you will be flying internationally, we recommend booking a direct flight if possible and planning for plenty of time to get through busy US customs (during summer vacation time).</p>
       </section>
-      <section className="photo-banner">
-        <figure className="landscape">
-          <img src={timesSquare} alt="Times Square Manhattan" />
-        </figure>
-        <figure className="landscape">
-          <img src={brooklynBridge} alt="Brooklyn Bridge at night" />
-        </figure>
-      </section>
       <br />
-      {/* <section className="travel-banner">
-        <h2>Where to Stay</h2>
-        <p className="bold">In Westbury, Long Island (near the venue):</p>
-        <section className="hotel">
-          <p><strong>Hyatt Place Garden City</strong></p>
-          <p>(516) 222-6277</p>
-          <p><a className="zac" href="https://www.hyatt.com/en-US/hotel/new-york/hyatt-place-garden-city/ispzg" target="_blank" rel="noreferrer">gardencity.place.hyatt.com</a></p>
-        </section>
-        <section className="hotel">
-          <p><strong>Courtyard Marriott Westbury</strong></p>
-          <p>(516) 542-1001</p>
-          <p><a className="zac" href="https://www.marriott.com/hotels/travel/nycbl-courtyard-westbury-long-island/" target="_blank" rel="noreferrer">marriott.com/nycbl</a></p>
-        </section>
-        <section className="hotel">
-          <p><strong>Viana Hotel and Spa, Westbury</strong></p>
-          <p>(516) 338-7777</p>
-          <p><a className="zac" href="https://www.vianahotelandspa.com/" target="_blank" rel="noreferrer">vianahotelandspa.com</a></p>
-        </section>
-      </section> */}
     </main>
   )
 }
