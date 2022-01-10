@@ -12,7 +12,7 @@ function Home() {
   const [hours, setHours] = React.useState(null)
   const [minutes, setMinutes] = React.useState(null)
   const [seconds, setSeconds] = React.useState(null)
-  const countDownDate = new Date('July 10, 2022 17:30:00 EDT').getTime()
+  const countDownDate = new Date('July 10, 2022 18:30:00 EDT').getTime()
 
   // Update the count down every 1 second
   const x = setInterval(function() {
@@ -66,7 +66,7 @@ function Home() {
       <section className='title-banner'>
         <h3>to the wedding of</h3>
         <h1 className="penny-and-zac"><div className="penny">Penelope Jungreis</div> <div className="penny">&amp;</div> <div className="zac"> Zachary Collins</div></h1>
-        <h2 className="date">Sunday 10<span className="superscript">th</span> July 2022, 5:30pm</h2>
+        <h2 className="date">Sunday 10<span className="superscript">th</span> July 2022</h2>
         <h4>Westbury Manor in New York</h4>
       </section>
 
