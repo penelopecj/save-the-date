@@ -327,10 +327,12 @@ h2, h1 {
     margin: 0 auto;
     color: grey;
     border-top: 3px dotted silver;
+    border-bottom: 3px dotted silver;
     font-size: 2rem;
 
     article {
       padding-top: 1rem;
+      padding-bottom: 1rem;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -357,6 +359,22 @@ h2, h1 {
     0% {color: rgb(128, 0, 81)}
     50% {color: rgb(202, 0, 125)}
     100% {color: rgb(128, 0, 81)}
+}
+
+.timing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+
+  div {
+    margin: 1rem 0;
+  }
+
+  .rouge-script {
+    font-size: 1.8rem;
+  }
 }
 
 // HOTEL PAGE

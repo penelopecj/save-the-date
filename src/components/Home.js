@@ -94,7 +94,34 @@ function Home() {
           :
           <div></div>
         }
-        <h3 className="fancy-font" id='late'>Don&apos;t be late!</h3>
+      </section>
+      <section className='title-banner'>
+        {/* <h2 className="penny">Schedule</h2> */}
+        <div className="timing">
+          <div className="rouge-script">Arrival</div>
+          <div>17:30</div>
+        </div>
+        <div className="timing">
+          <div className="rouge-script">Champagne</div>
+          <div>18:00</div>
+        </div>
+        <div className="timing">
+          <div className="rouge-script">Ceremony</div>
+          <div>18:30</div>
+        </div>
+        <div className="timing">
+          <div className="rouge-script">Cocktails</div>
+          <div>19:00</div>
+        </div>
+        <div className="timing">
+          <div className="rouge-script">Dinner</div>
+          <div>20:00</div>
+        </div>
+        <div className="timing">
+          <div className="rouge-script">Cake</div>
+          <div>22:00</div>
+        </div>
+        <h3 id='late'>See you there!</h3>
       </section>
     </main>
   )
