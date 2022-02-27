@@ -19,7 +19,7 @@ function Dress() {
       <section className="travel-banner">
         <h2>Summer Suits and Dresses</h2>
         <p className="centered">This is a classy, formal affair.</p>
-        <p className="centered">We want you to be comfortable, so please dress appropriately for standing outdoors in the July heat.</p>
+        <p className="centered">We also want you to be comfortable, so please dress appropriately for standing outdoors in the summer heat! The average temperature in July is 84° Fahrenheit (29° Celcius).</p>
         <p className="centered">Reference the above models for the vibe.</p>
       </section>
       <br />
