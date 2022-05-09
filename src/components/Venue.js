@@ -42,6 +42,89 @@ function Venue() {
         </ul>
         <p>JFK and LaGuardia airports are located in Queens, New York and are the closest to the venue. Newark airport is located in New Jersey, which is to the west of Manhattan and much farther from the venue.</p>
         <p>If you will be flying internationally, we recommend booking a direct flight if possible and planning for plenty of time to get through busy US customs (during summer vacation time).</p>
+        <hr />
+        <h1>Example Menu</h1>
+        <h2 className="entree-header centered">Appetizer</h2>
+        <ul className="menu">
+          <li>
+            <p className="bold entree-header">
+              Smoked Salmon
+            </p>
+            <p className="entree-text">
+              Gaspe bay smoked salmon nestled in fried Yuba with Enoki mushrooms and tobiko served over a bed of Frisee and field greens topped with a coconut lemongrass vinaigrette
+            </p>
+          </li>
+        </ul>
+        <br />
+        <h2 className="entree-header centered">Main Entrées</h2>
+        <p className="entree-text centered">(Guests&apos; choice)</p>
+        <ul className="menu">
+          <li>
+            <p className="bold entree-header">
+              Amaretto Filet Mignon
+            </p>
+            <p className="entree-text">
+              Whole tenderloin of beef with red wine, Amaretto and strawberry glaze
+            </p>
+          </li>
+          <li>
+            <p className="bold entree-header">
+              Chicken Olivata
+            </p>
+            <p className="entree-text">
+              Tender breast of chicken served with tapenade of white wine and imported Italian olives, crowned with coarsely diced tomatoes
+            </p>
+          </li>
+          <li>
+            <p className="bold entree-header">
+              Salmon
+            </p>
+            <p className="entree-text">
+              Filet of salmon, pan roasted in a salmoriglio sauce
+            </p>
+          </li>
+          <li>
+            <p className="bold entree-header">
+              Sea Bass
+            </p>
+            <p className="entree-text">
+              Baked Mediteranean Sea Bass topped with sliced tomato in a garlic shallot white wine sauce
+            </p>
+          </li>
+          <li>
+            <p className="bold entree-header">
+              Pasta Primavera
+            </p>
+            <p className="entree-text">
+              Vegetarian pasta
+            </p>
+          </li>
+          <li>
+            <p className="bold entree-header">
+              North Fork
+            </p>
+            <p className="entree-text">
+              Grilled Portobello mushrooms, yellow squash, zucchini, asparagus, and red and yellow Holland peppers
+            </p>
+          </li>
+          <li>
+            <p className="bold entree-header">
+              Duck á l&apos; Orange
+            </p>
+            <p className="entree-text">
+              Slowly roasted with apple bread stuffing served with an orange glaze
+            </p>
+          </li>
+          <li>
+            <p className="bold entree-header">
+              Chicken Fingers
+            </p>
+            <p className="entree-text">
+              Served wtih fries
+            </p>
+          </li>
+        </ul>
+        <p>All entrées are served with chef&apos;s selection of potatoes or rice and seasonal vegetable.</p>
       </section>
       <br />
     </main>

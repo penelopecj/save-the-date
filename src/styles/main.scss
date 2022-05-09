@@ -562,7 +562,7 @@ footer {
     font-size: 2rem;
   }
 
-  .travel-banner {ß
+  .travel-banner {
 
     .big-font {
       font-size: 1.1rem;
@@ -572,7 +572,10 @@ footer {
     .driving {
       margin-bottom: -10px;
     }
+
   }
+
+  
 
   .booking-btn {
     margin: 15px auto;
@@ -648,4 +651,17 @@ footer {
       padding-bottom: 6px;
     }
   }
+}
+
+.entree-header {
+  margin-bottom: 0;
+}
+
+.entree-text {
+  margin-top: 0;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0
 }
