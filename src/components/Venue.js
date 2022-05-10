@@ -43,7 +43,7 @@ function Venue() {
         <p>JFK and LaGuardia airports are located in Queens, New York and are the closest to the venue. Newark airport is located in New Jersey, which is to the west of Manhattan and much farther from the venue.</p>
         <p>If you will be flying internationally, we recommend booking a direct flight if possible and planning for plenty of time to get through busy US customs (during summer vacation time).</p>
         <hr />
-        <h1>Example Menu</h1>
+        <h1>Anticipated Menu</h1>
         <h2 className="entree-header centered">Appetizer</h2>
         <ul className="menu">
           <li>
@@ -125,6 +125,18 @@ function Venue() {
           </li>
         </ul>
         <p>All entrées are served with chef&apos;s selection of potatoes or rice and seasonal vegetable.</p>
+        <br />
+        <h2 className="entree-header centered">Dessert</h2>
+        <ul className="menu">
+          <li>
+            <p className="bold entree-header">
+              Wedding Cake
+            </p>
+            <p className="entree-text">
+              A buttercream frosted cake with chocolate raspberry, chocolate pudding, and carrot cake layers
+            </p>
+          </li>
+        </ul>
       </section>
       <br />
     </main>

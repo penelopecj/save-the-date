@@ -1,8 +1,11 @@
 import React from 'react'
 
 import engaged from '../images/engaged.jpg'
-import shifen from '../images/shifen2.jpg'
-import bangkok from '../images/bangkok.jpg'
+//import shifen from '../images/shifen2.jpg'
+//import bangkok from '../images/bangkok.jpg'
+import buckinghamPalace from '../images/buckingham-palace.jpg'
+import waterfall from '../images/waterfall.jpg'
+
 
 
 function Home() {
@@ -54,13 +57,13 @@ function Home() {
       </section>
       <section className='photo-banner'>
         <figure className="portrait">
-          <img src={engaged} alt='penny and zac with engagement ring' />
-        </figure>
-        <figure className="portrait vanish">
-          <img src={shifen} alt='penny and zac kissing on train tracks' />
+          <img src={waterfall} alt='Penny and Zac in front of waterfall' />
         </figure>
         <figure className="portrait">
-          <img src={bangkok} alt='penny and zac in party attire' />
+          <img src={engaged} alt='Penny and Zac with engagement ring' />
+        </figure>
+        <figure className="portrait vanish">
+          <img src={buckinghamPalace} alt='Penny and Zac in front of Buckingham Palace' />
         </figure>
       </section>
       <section className='title-banner'>
