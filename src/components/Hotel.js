@@ -21,10 +21,10 @@ function Hotel() {
       <section className="travel-banner">
         <h2>1350 Walt Whitman Road, Melville, New York 11747, United States</h2>
         <p className="centered">The hotel is located about <strong>20 minutes</strong> drive from the wedding venue.</p>
-        <p className="centered">Breakfast will be served on Monday from 10:00am to 12:00pm. Please let us know if you book a room so we can provide enough breakfast for you.</p>
+        <p className="centered">A private farewell breakfast will be served on on Monday 11th July from 10:00am to 12:00pm. Please let us know if you book a room so we can provide enough breakfast for you.</p>
         <hr />
         <h2>Book a Room</h2>
-        <p>Many of us are staying at the Marriott Melville the night before the wedding (Saturday 9th July) and the night of the wedding (Sunday 10th July). If enough people choose to stay at the hotel, we will try to arrange a private farewell breakfast on Monday 11th July.</p>
+        <p>Many of us are staying at the Marriott Melville the night before the wedding (Saturday 9th July) and the night of the wedding (Sunday 10th July).</p>
         <p>If you think there&apos;s a chance that you will want to stay at the Marriott Melville, we suggest going ahead and making a reservation now, since it can be cancelled up until 3 days before the wedding if you decide not to stay there. There are discounts available for Seniors over 62, for AAA/CAA membership, and for Marriott membership (which you can get for free).</p>
         <p className="bold driving">Reservations can be made here:</p>
         <a href="https://www.marriott.com/hotels/travel/nycml-marriott-melville-long-island/" target="_blank" rel="noreferrer">
