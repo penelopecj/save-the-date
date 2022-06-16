@@ -9,7 +9,7 @@ import Nyc from './components/Nyc'
 import Covid from './components/Covid'
 import Registry from './components/Registry'
 import Dress from './components/Dress'
-import RSVP from './components/RSVP'
+import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 // import Register from './components/auth/Register'
 // import Login from './components/auth/Login'
@@ -27,7 +27,7 @@ function App() {
         <Route exact path="/covid" component={Covid} />
         <Route exact path="/registry" component={Registry} />
         <Route exact path="/dress-code" component={Dress} />
-        <Route exact path="/rsvp" component={RSVP} />
+        <Route exact path="/faq" component={FAQ} />
       </Switch>
       <Footer />
     </BrowserRouter>

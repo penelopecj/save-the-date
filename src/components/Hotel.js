@@ -20,7 +20,7 @@ function Hotel() {
       <h1 className="centered">Marriott Melville</h1>
       <section className="travel-banner">
         <h2>1350 Walt Whitman Road, Melville, New York 11747, United States</h2>
-        <p className="centered">The hotel is located about <strong>20 minutes</strong> drive from the wedding venue.</p>
+        <p className="centered">The hotel is located about <strong>20 minutes</strong> drive from the wedding venue. See below details about hotel transport.</p>
         <p className="centered">A private farewell breakfast will be served on on Monday 11th July from 10:00am to 12:00pm. Please let us know if you book a room so we can provide enough breakfast for you.</p>
         <hr />
         <h2>Book a Room</h2>
@@ -35,9 +35,9 @@ function Hotel() {
         <p>Click on the &apos;View Rates&apos; button and then the &apos;Edit&apos; button to include the AAA / CAA or Senior Discount &apos;Special Rates&apos;.</p>
         <hr />
         <h2>Hotel Transport</h2>
+        <p>We have booked a 56-passenger coach to drive some of you from the hotel to the venue at 5:30pm on Sunday 10th July and back again at the end of the night. Space on the bus is limited, so we encourage you to drive if you will have a car at the hotel.</p>
         <p>The hotel is located in Melville, New York - a bit farther into Long Island than the wedding venue. The nearest train station is Pinelawn on the Ronkonkoma branch of the Long Island Rail Road (LIRR).</p>
         <p>We recommend driving or taking a taxi to the hotel. Otherwise, you can take the Ronkonkoma branch to Pinelawn Station and get a 10-minute Uber from there to the hotel.</p>
-        <p>We expect most people will either drive or get a taxi to and from the venue on Sunday 10th July, so please let us know if you would like help arranging transport.</p>
       </section>
       <section className="photo-banner">
         <figure className="landscape">

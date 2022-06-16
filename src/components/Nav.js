@@ -42,7 +42,7 @@ function Nav() {
             <Link to="/dress-code" onClick={handleMenuToggle}>Dress</Link>
           </li>
           <li className="mobile-divider">
-            <Link to="/rsvp" onClick={handleMenuToggle}>RSVP</Link>
+            <Link to="/faq" onClick={handleMenuToggle}>FAQ</Link>
           </li>
         </ul> 
         <div 

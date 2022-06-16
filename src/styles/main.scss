@@ -665,3 +665,12 @@ footer {
   list-style-type: none;
   padding: 0
 }
+
+.venmo-wrapper {
+  max-width: 300px;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+  }
+}
