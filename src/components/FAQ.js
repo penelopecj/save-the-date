@@ -89,7 +89,7 @@ function FAQ() {
                 Where are we staying before the wedding?
               </strong>
               <p>
-                Zac and Penny will be staying at the <a rel="noreferrer" target="_blank" href="https://www.hyatt.com/en-US/hotel/new-york/hyatt-place-long-island-city-new-york-city/lgazl">Hyatt Long Island City</a> in the New York City borough of Queens for two days before the wedding.
+                Zac and Penny will be staying at the <a rel="noreferrer" target="_blank" href="https://www.hyatt.com/en-US/hotel/new-york/hyatt-place-long-island-city-new-york-city/lgazl">Hyatt Long Island City</a> in the New York City borough of Queens on 7th and 8th July before the wedding.
               </p>
             </li>
             <li>
@@ -97,7 +97,7 @@ function FAQ() {
                 Where are we going after the wedding?
               </strong>
               <p>
-                Zac and Penny will be leaving after breakfast on Monday 10th July to stay for a few days at the base of Mt Washington in New Hampshire. Phone signal will be poor, so best not to contact us about anything after the wedding...
+                Zac and Penny will be leaving after breakfast on Monday 11th July to stay for a few days at the base of Mt Washington in New Hampshire. Phone signal will be poor, so best not to contact us about anything after the wedding...
               </p>
             </li>
             <li>

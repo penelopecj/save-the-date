@@ -21,7 +21,7 @@ function Hotel() {
       <section className="travel-banner">
         <h2>1350 Walt Whitman Road, Melville, New York 11747, United States</h2>
         <p className="centered">The hotel is located about <strong>20 minutes</strong> drive from the wedding venue. See below details about hotel transport.</p>
-        <p className="centered">A private farewell breakfast will be served on on Monday 11th July from 10:00am to 12:00pm. Please let us know if you book a room so we can provide enough breakfast for you.</p>
+        <p className="centered">A private farewell breakfast will be served on Monday 11th July from 10:00am to 12:00pm. Please let us know if you book a room so we can provide enough breakfast for you.</p>
         <hr />
         <h2>Book a Room</h2>
         <p>Many of us are staying at the Marriott Melville the night before the wedding (Saturday 9th July) and the night of the wedding (Sunday 10th July).</p>
