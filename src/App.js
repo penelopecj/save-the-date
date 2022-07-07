@@ -11,6 +11,7 @@ import Registry from './components/Registry'
 import Dress from './components/Dress'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
+import Crane from './components/Crane'
 // import Register from './components/auth/Register'
 // import Login from './components/auth/Login'
 
@@ -28,6 +29,7 @@ function App() {
         <Route exact path="/registry" component={Registry} />
         <Route exact path="/dress-code" component={Dress} />
         <Route exact path="/faq" component={FAQ} />
+        <Route exact path="/cranes" component={Crane} />
       </Switch>
       <Footer />
     </BrowserRouter>

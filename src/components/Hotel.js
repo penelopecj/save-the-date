@@ -35,7 +35,7 @@ function Hotel() {
         <p>Click on the &apos;View Rates&apos; button and then the &apos;Edit&apos; button to include the AAA / CAA or Senior Discount &apos;Special Rates&apos;.</p>
         <hr />
         <h2>Hotel Transport</h2>
-        <p>We have booked a 56-passenger coach to drive some of you from the hotel to the venue at 5:30pm on Sunday 10th July and back again at the end of the night. Space on the bus is limited, so we encourage you to drive if you will have a car at the hotel.</p>
+        <p>We have booked a 56-passenger coach to drive some of you from the hotel to the venue at 5:30pm on Sunday 10th July and back again at the end of the night. Space on the bus is limited.</p>
         <p>The hotel is located in Melville, New York - a bit farther into Long Island than the wedding venue. The nearest train station is Pinelawn on the Ronkonkoma branch of the Long Island Rail Road (LIRR).</p>
         <p>We recommend driving or taking a taxi to the hotel. Otherwise, you can take the Ronkonkoma branch to Pinelawn Station and get a 10-minute Uber from there to the hotel.</p>
       </section>

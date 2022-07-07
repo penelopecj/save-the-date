@@ -15,7 +15,7 @@ function Home() {
   const [hours, setHours] = React.useState(null)
   const [minutes, setMinutes] = React.useState(null)
   const [seconds, setSeconds] = React.useState(null)
-  const countDownDate = new Date('July 10, 2022 18:30:00 EDT').getTime()
+  const countDownDate = new Date('July 10, 2022 18:00:00 EDT').getTime()
 
   // Update the count down every 1 second
   const x = setInterval(function() {
@@ -102,10 +102,6 @@ function Home() {
         {/* <h2 className="penny">Schedule</h2> */}
         <div className="timing">
           <div className="rouge-script">Arrival</div>
-          <div>17:30</div>
-        </div>
-        <div className="timing">
-          <div className="rouge-script">Champagne</div>
           <div>18:00</div>
         </div>
         <div className="timing">

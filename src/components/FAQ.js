@@ -82,7 +82,7 @@ function FAQ() {
               <strong>
                 Will we have breakfast all together at the hotel before we leave?
               </strong>
-              <p>A private farewell breakfast will be served on on Monday 11th July from 10:00am to 12:00pm. Please let us know if you book a room so we can provide enough breakfast for you.</p>
+              <p>A private farewell breakfast will be served on Monday 11th July from 10:00am to 12:00pm. Please let us know if you book a room so we can provide enough breakfast for you.</p>
             </li>
             <li>
               <strong>
